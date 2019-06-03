@@ -1,0 +1,97 @@
+th, td{
+	border: 1px solid black;
+	padding:5px;
+}
+
+.answeres-container{
+clear:both;
+padding-top: 20px;
+	
+}
+
+.input-container{
+	display:flex;
+	justify-content: space-around;
+	margin-top: 40px;
+	flex-direction: column;
+}
+
+.game-container{
+margin-top:20vh;	
+padding-top:50px;
+text-align: center;
+max-width: 1000px;
+margin-left:auto;
+margin-right: auto;
+}
+
+
+
+.start-button{
+padding:12px;
+font-size: 20px;	
+border-radius: 15px 15px;
+background-color: #C8543B;
+border: 1px solid black;
+color: white;
+margin-top:40px;	
+}
+
+.table{
+	margin:0 auto;
+}
+
+.header_main_title{
+color:#C8543B; 	
+}
+
+
+.infinitive{
+color:green;
+font-size: 25px;	
+	
+}
+
+.input{
+display: block;	
+margin:10px auto 30px auto;
+border: 1px solid black;
+border-radius: 15px;
+padding:10px;
+font-weight: bold;
+text-align: center;
+}
+
+.score_board{
+text-align: left;
+margin-left: 30px;
+padding: 10px;	
+display: inline-block;
+float:left;
+border: 1px solid #333333;
+
+border-radius: 14px;
+}
+
+.log-container{
+	text-align:center;
+	margin: 80px 0px 200px 0px;
+	
+	
+	padding:100px;
+}
+.score_table{
+	margin: 40px auto;
+}
+
+.score-table-container{
+	margin-top:50px;
+text-align: center;	
+}
+
+@media only screen and (min-width: 500px) {
+	.input-container{
+	
+	}
+	
+}
